@@ -1,5 +1,16 @@
-node {
-    stage('Build') {
-        echo "Hello World from console"
+pipeline {
+
+    agent {
+        dockerfile true
+    }
+
+    stages {
+
+        stage("build") {
+
+            steps {
+
+            }
+        }
     }
 }
