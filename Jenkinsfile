@@ -10,7 +10,7 @@ pipeline {
 
             steps {
                 echo 'Hello World!'
-                sh 'echo dupa = $dupa'
+                sh 'echo dupa = $dupa1'
             }
         }
     }
