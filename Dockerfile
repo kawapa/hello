@@ -1,5 +1,3 @@
-FROM ubuntu
+FROM node:16-alpine
 
-RUN /bin/bash -c 'echo THIS IS UBUNTU'
-
-ENV dupa="dupka"
+RUN apk add -U git curl
